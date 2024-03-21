@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.get-started-button,
+.already-have-account-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.get-started-button:hover,
+.already-have-account-button:hover {
+  background-color: #0056b3;
+}
