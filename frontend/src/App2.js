@@ -1,21 +1,14 @@
 
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-import GetStarted from "./pages/GetStartedPage";
 export default App;
-
 
 function App() {
   return (
-    <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />}>
-            <Route path="start" element={<GetStarted />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
+    <div className="bg-[url('IBM-Watsonx-Logo-bg.png')] bg-hero bg-no-repeat bg-cover bg-center bg-fixed">
+      <Header />
+      <FlashCards />
+      <Footer />
+    </div>
   );
 }
 
